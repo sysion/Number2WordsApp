@@ -54,11 +54,9 @@ public class Number2WordsUtility {
 		try {
 	        inpNumber = Long.parseLong(textNumber);
 	    } catch (NumberFormatException e) {
-	        //System.out.println("Couldn't parse input to Number format : " + e);
 	        inpNumber = -1;
 	    }
 
-	    //return Long.parseLong(textNumber);
 	    return inpNumber;
 	}
 
